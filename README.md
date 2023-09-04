@@ -36,3 +36,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## deploy
 
 `firebase deploy`
+
+##
+
+accessible initailally here: [omnimethod.app](https://omni-method.web.app/)
