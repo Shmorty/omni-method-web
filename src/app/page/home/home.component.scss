@@ -1,0 +1,15 @@
+.main {
+    // background: linear-gradient(180deg, var(--preset--color--base) 0 min(24rem, 10%), var(--preset--color--secondary) 0% 30%, var(--preset--color--base) 100%);
+    background-color: #1c3f5e;
+    background-image: url("/assets/Website-Home-Page-edited-1024x603.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+    max-width: 1280px;
+    min-height: calc(100% - 64px);
+    mat-grid-list {
+        background-color: #1c3f5e6c;
+        height: calc(100vh - 24px);
+    }
+    // padding: 16px;
+}

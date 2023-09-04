@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -30,6 +31,7 @@ import {TermsComponent} from './page/terms/terms.component';
     FormsModule,
     BrowserAnimationsModule,
     MatButtonModule,
+    MatCardModule,
     MatGridListModule,
     MatSlideToggleModule,
     MatToolbarModule,
