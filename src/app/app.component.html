@@ -1,14 +1,14 @@
-<mat-toolbar color="primary" class="navbar">
-    <div><img src="/assets/Horizontal-Logo-1024x644.png" height="60px"/></div>
+<mat-toolbar #navbar color="primary" class="navbar">
+    <div routerLink="/"><img src="/assets/Horizontal-Logo-1024x644.png" height="60px"/></div>
     <div>
-        <span>About</span>
-        <span>Home</span>
-        <span>Privacy Policy</span>
-        <span>Terms and Service</span>
+        <button mat-button  routerLink="about">About</button>
+        <button mat-button routerLink="privacy">Privacy Policy</button>
+        <button mat-button routerLink="terms">Terms and Service</button>
     </div>
 </mat-toolbar>
 <div class="main">
     <img src="/assets/Website-Home-Page-edited-1024x603.png" width="100%"/>
+    <router-outlet></router-outlet>
 </div>
 
 <!-- <mat-menu #appMenu="matMenu">
@@ -36,4 +36,3 @@
 
 <!-- <mat-slide-toggle>Toggle me!</mat-slide-toggle> -->
 
-<router-outlet></router-outlet>

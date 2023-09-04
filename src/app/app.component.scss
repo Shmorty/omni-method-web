@@ -11,7 +11,8 @@
 .main {
     // background: linear-gradient(180deg, var(--preset--color--base) 0 min(24rem, 10%), var(--preset--color--secondary) 0% 30%, var(--preset--color--base) 100%);
     background-color: #1c3f5e;
-    height: 90%;
+    color: #fff;
+    min-height: calc(100% - 64px);
 }
 .navbar {
     justify-content: space-between;
