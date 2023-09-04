@@ -1,2 +1,38 @@
-<header>{{title}}</header>
+<mat-toolbar color="primary" class="navbar">
+    <div><img src="/assets/Horizontal-Logo-1024x644.png" height="60px"/></div>
+    <div>
+        <span>About</span>
+        <span>Home</span>
+        <span>Privacy Policy</span>
+        <span>Terms and Service</span>
+    </div>
+</mat-toolbar>
+
+<img src="/assets/Website-Home-Page-edited-1024x603.png" width="100%"/>
+
+<!-- <mat-menu #appMenu="matMenu">
+    <button mat-menu-item [mat-menu-trigger-for]="subMenu">FrontEnd</button>
+    <button mat-menu-item>BackEnd</button>
+</mat-menu>
+
+<button mat-flat-button [mat-menu-trigger-for]="appMenu">Menu</button>
+
+<mat-menu #subMenu="matMenu">
+    <button mat-menu-item>Angular</button>
+    <button mat-menu-item>React</button>
+    <button mat-menu-item>Vue</button>
+</mat-menu> -->
+
+<!-- <mat-sidenav-container>
+    <mat-sidenav #sidenav mode="side" [(opened)]="opened">Sidenav</mat-sidenav>
+    <mat-sidenav-content>Main
+        <button (click)="opened=!opened">Menu</button>
+        <button (click)="sidenav.open()">Open</button>
+        <button (click)="sidenav.close()">Close</button>
+        <button (click)="sidenav.toggle()">Toggle</button>
+    </mat-sidenav-content>
+</mat-sidenav-container> -->
+
+<!-- <mat-slide-toggle>Toggle me!</mat-slide-toggle> -->
+
 <router-outlet></router-outlet>

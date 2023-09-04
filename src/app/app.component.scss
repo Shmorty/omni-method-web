@@ -2,6 +2,25 @@
     font-family: "Overpass", sans-serif;
 }
 
+.navbar {
+    justify-content: space-between;
+    background-color: #101130;
+}
+span {
+    padding-right: 1rem;
+}
+
+mat-sidenav-container {
+    height: calc(100% - 76px);
+}
+mat-sidenav, mat-sidenav-content {
+    padding: 16px;
+}
+mat-sidenav {
+    background-color: lightcyan;
+    width: 200px;
+}
+
 header {
     background-color: #5eb3f9;
     color: #fff;
