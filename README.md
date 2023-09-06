@@ -26,17 +26,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-# Firebase Deploy
+## Firebase Deploy
 
-## setup local environment
+### setup local environment
 
 `npm install -g firebase-tools`
 `firebase login`
 
-## deploy
+### deploy
 
 `firebase deploy`
 
-##
+### access site on firebase
 
 accessible initailally here: [omnimethod.app](https://omni-method.web.app/)
